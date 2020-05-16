@@ -1,0 +1,352 @@
+/* Палитра */
+/* Основной цвет текста #212121 */
+/* Основной цвет фона #FFFFFF */
+/* Дополнительный цвет текста #757575 */
+/* Акцент #2196F3 */
+/* Дополнительный цвет фона #F5F4FA */
+/* Цвет фона футера #2F303A */
+
+body {
+  color: #212121;
+  background-color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.02em;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+/* Выделение ссылки */
+
+.link:hover,
+.link:focus {
+  color: #2196f3;
+}
+
+/* Логотип */
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.2;
+}
+
+.logo-accent {
+  color: #2196f3;
+}
+
+/* Навигация */
+
+.navigation {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+/* Контакты */
+
+.contact {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+/* Герой */
+
+.solutions {
+  margin-top: 0px;
+  margin-bottom: 46px;
+  outline: solid 3px tomato;
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  background-color: black;
+}
+
+/* Наши качества */
+
+.qualities-list .title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.qualities-list .text {
+  color: #757575;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+/* Чем мы занимаемся */
+
+.we-doing-list .item {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 94px;
+}
+
+/* Наша команда */
+
+.team-section {
+  background: #f5f4fa;
+  padding: 94px 200px;
+  margin-bottom: 94px;
+}
+
+.team-list .title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.team-list .proffesion {
+  color: #757575;
+  font-size: 16px;
+  line-height: 1.18px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* Футер */
+
+.footer {
+  background-color: #2f303a;
+  padding-top: 48px;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-bottom: 20px;
+}
+
+.footer .logo {
+  color: #ffffff;
+}
+.footer-adress .street {
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.footer-adress > a {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer > b {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.footer .copyright {
+  font-size: 12px;
+  line-height: 2;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.buttons {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.portfolio-list .title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-list .type {
+  color: #757575;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+}
+
+.portfolio-list .text {
+  color: #ffffff;
+  background-color: black;
+  font-size: 18px;
+  line-height: 1.56;
+  letter-spacing: 0.03em;
+}
+
+/* Flexbox */
+
+.container {
+  width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  background-color: #ccc;
+  outline: 2px solid tomato;
+}
+
+.btn {
+  color: #ffffff;
+  display: inline-block;
+  padding: 10px 32px;
+  min-width: 200px;
+  background-color: #2196f3;
+  border-radius: 6px;
+  text-align: center;
+  border: 1px solid transparent;
+}
+
+.btn:hover,
+.btn:focus {
+  border-color: #2196f3;
+  color: #2196f3;
+  background-color: #fff;
+}
+
+.text {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.hero-container {
+  background-color: #ccc;
+  margin-bottom: 94px;
+}
+
+.quailies-title {
+  display: none;
+}
+
+.item .link {
+  display: inline-block;
+  margin-bottom: 30px;
+  padding: 25px 104px;
+  background-color: #2196f3;
+  border-radius: 4px;
+}
+
+.qualities-list {
+  margin-bottom: 94px;
+}
+
+.we-doing-list-title {
+  display: inline-block;
+  width: 380px;
+  padding: 27px 87px;
+  text-align: center;
+  background: rgba(47, 48, 58, 0.8);
+  border-radius: 0px 0px 4px 4px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h3.title {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.team-list img {
+  margin-bottom: 30px;
+}
+
+.team-list p {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.clients {
+  margin-bottom: 94px;
+}
+
+.footer-container {
+  width: 1230px;
+  margin: 0 auto;
+  outline: 2px solid tomato;
+}
+
+.footer-container .logo {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.street {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.footer-adress p {
+  margin-bottom: 9px;
+}
+
+.footer-adress .link {
+  display: inline-block;
+  margin-bottom: 9px;
+}
+
+.tel-link {
+  display: inline-block;
+  margin-bottom: 28px;
+}
+
+.footer-line {
+  width: 1230px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  margin: 0 auto;
+}
+
+.footer b {
+  display: inline-block;
+  margin-bottom: 21px;
+}
+
+.buttons {
+  margin-top: 94px;
+}
+
+.portfolio-list {
+  margin-bottom: 94px;
+}
