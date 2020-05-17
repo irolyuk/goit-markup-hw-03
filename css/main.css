@@ -55,21 +55,43 @@ h2 {
 }
 
 /* Навигация */
+.container nav {
+  display: flex;
+  align-items: center;
+}
 
 .navigation {
+  display: flex;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  margin-left: 80px;
+}
+
+.navigation li + li {
+  margin-left: 45px;
+}
+
+.navigation .link {
+  display: block;
+  margin-top: 32px;
+  padding-bottom: 32px;
 }
 
 /* Контакты */
 
 .contact {
+  display: flex;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  margin-left: auto;
+}
+
+.contact li + li {
+  margin-left: 30px;
 }
 
 /* Герой */
@@ -107,6 +129,19 @@ h2 {
   letter-spacing: 0.03em;
 }
 
+.qualities-list .item {
+  width: 278px;
+}
+
+.qualities-list li + li {
+  margin-left: 29px;
+}
+
+.qualities-container .qualities-list {
+  display: flex;
+  align-items: center;
+}
+
 /* Чем мы занимаемся */
 
 .we-doing-list .item {
@@ -117,13 +152,26 @@ h2 {
   text-align: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-bottom: 94px;
+  width: 380px;
 }
 
 /* Наша команда */
+.social-links {
+  display: flex;
+  justify-content: space-around;
+}
 
 .team-section {
   background: #f5f4fa;
+}
+
+.team-list {
+  display: flex;
+  padding-bottom: 94px;
+}
+
+.team-list .item + .item {
+  margin-left: 30px;
 }
 
 .team-list .title {
@@ -140,6 +188,10 @@ h2 {
   line-height: 1.18px;
   text-align: center;
   letter-spacing: 0.03em;
+}
+
+.proffesion {
+  margin-bottom: 16px;
 }
 
 /* Футер */
@@ -198,6 +250,8 @@ h2 {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  margin-top: 20px;
+  margin-bottom: 4px;
 }
 
 .portfolio-list .type {
@@ -205,6 +259,8 @@ h2 {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .portfolio-list .text {
@@ -288,20 +344,28 @@ h2 {
   margin-bottom: 0;
 }
 
+.we-doing-list {
+  display: flex;
+  margin-bottom: 94px;
+}
+
+.we-doing-list .item + .item {
+  margin-left: 30px;
+}
+
 h3.title {
   margin-top: 0;
   margin-bottom: 10px;
 }
 
-.team-list img {
-  margin-bottom: 30px;
-}
-
 .team-list p {
-  margin-top: 0;
+  margin-top: 0px;
   margin-bottom: 16px;
 }
 
+.team-list h3 {
+  margin-top: 30px;
+}
 .clients {
   margin-bottom: 94px;
 }
@@ -349,6 +413,22 @@ h3.title {
 
 .portfolio-list {
   margin-bottom: 94px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.portfolio-list li {
+  width: 380px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.portfolio-list li:nth-child(3n) {
+  margin-right: 0;
+}
+
+.portfolio-list li:nth-last-child(-n + 3) {
+  margin-bottom: 0;
 }
 
 .buttons .item {
@@ -358,10 +438,25 @@ h3.title {
   text-align: center;
 }
 
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.buttons li + li {
+  margin-left: 8px;
+}
+
 .buttons .item:hover,
 .buttons .item:focus {
   background: #2196f3;
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 3px 1px rgba(0, 0, 0, 0.1);
   border-radius: 4px;
+}
+
+.cliets-list {
+  display: flex;
+  justify-content: space-around;
 }
