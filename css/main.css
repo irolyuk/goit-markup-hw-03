@@ -124,8 +124,6 @@ h2 {
 
 .team-section {
   background: #f5f4fa;
-  padding: 94px 200px;
-  margin-bottom: 94px;
 }
 
 .team-list .title {
@@ -149,8 +147,6 @@ h2 {
 .footer {
   background-color: #2f303a;
   padding-top: 48px;
-  padding-left: 200px;
-  padding-right: 200px;
   padding-bottom: 20px;
 }
 
@@ -230,6 +226,18 @@ h2 {
   outline: 2px solid tomato;
 }
 
+.qualities-container {
+  width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 94px;
+  background-color: #ccc;
+  outline: 2px solid tomato;
+}
+
 .btn {
   color: #ffffff;
   display: inline-block;
@@ -270,12 +278,7 @@ h2 {
   border-radius: 4px;
 }
 
-.qualities-list {
-  margin-bottom: 94px;
-}
-
 .we-doing-list-title {
-  display: inline-block;
   width: 380px;
   padding: 27px 87px;
   text-align: center;
