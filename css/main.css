@@ -75,7 +75,7 @@ h2 {
 
 .navigation .link {
   display: block;
-  margin-top: 32px;
+  padding-top: 32px;
   padding-bottom: 32px;
 }
 
@@ -242,7 +242,10 @@ h2 {
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
-  margin-top: 94px;
+  display: flex;
+  justify-content: center;
+  padding-top: 93px;
+  padding-bottom: 34px;
 }
 
 .portfolio-list .title {
@@ -250,8 +253,13 @@ h2 {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  margin-top: 20px;
   margin-bottom: 4px;
+}
+
+.portfolio-list img {
+  margin-bottom: 20px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 
 .portfolio-list .type {
@@ -265,10 +273,13 @@ h2 {
 
 .portfolio-list .text {
   color: #ffffff;
-  width: 332px;
   font-size: 18px;
   line-height: 1.56;
   letter-spacing: 0.03em;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
 
 /* Flexbox */
@@ -278,8 +289,6 @@ h2 {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  background-color: #ccc;
-  outline: 2px solid tomato;
 }
 
 .qualities-container {
@@ -290,8 +299,6 @@ h2 {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 94px;
-  background-color: #ccc;
-  outline: 2px solid tomato;
 }
 
 .btn {
@@ -303,6 +310,8 @@ h2 {
   border-radius: 6px;
   text-align: center;
   border: 1px solid transparent;
+  display: inline-block;
+  justify-item: center;
 }
 
 .btn:hover,
@@ -318,8 +327,7 @@ h2 {
 }
 
 .hero-container {
-  background-color: #ccc;
-  margin-bottom: 94px;
+  padding-bottom: 94px;
 }
 
 .quailies-title {
@@ -346,7 +354,7 @@ h2 {
 
 .we-doing-list {
   display: flex;
-  margin-bottom: 94px;
+  padding-bottom: 94px;
 }
 
 .we-doing-list .item + .item {
@@ -371,14 +379,22 @@ h3.title {
 }
 
 .footer-container {
+  display: flex;
   width: 1230px;
   margin: 0 auto;
-  outline: 2px solid tomato;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding-bottom: 28px;
+  justify-content: space-between;
+  align-items: baseline;
 }
 
-.footer-container .logo {
+.footer-adress .logo {
   display: inline-block;
   margin-bottom: 10px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.2;
 }
 
 .street {
@@ -397,7 +413,6 @@ h3.title {
 
 .tel-link {
   display: inline-block;
-  margin-bottom: 28px;
 }
 
 .footer-line {
@@ -406,13 +421,18 @@ h3.title {
   margin: 0 auto;
 }
 
+.footer-connect {
+  display: flex;
+  justify-content: space-around;
+}
+
 .footer b {
   display: inline-block;
   margin-bottom: 21px;
 }
 
 .portfolio-list {
-  margin-bottom: 94px;
+  padding-bottom: 94px;
   display: flex;
   flex-wrap: wrap;
 }
@@ -436,12 +456,6 @@ h3.title {
   background: #f5f4fa;
   border-radius: 4px;
   text-align: center;
-}
-
-.buttons {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 50px;
 }
 
 .buttons li + li {
