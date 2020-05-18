@@ -99,7 +99,6 @@ h2 {
 .solutions {
   margin-top: 0px;
   margin-bottom: 46px;
-  outline: solid 3px tomato;
   color: #ffffff;
   font-weight: 900;
   font-size: 44px;
@@ -107,7 +106,7 @@ h2 {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  background-color: black;
+  background-color: #ccc;
 }
 
 /* Наши качества */
@@ -280,6 +279,7 @@ h2 {
   box-sizing: border-box;
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
+  background-color: #ccc;
 }
 
 /* Flexbox */
