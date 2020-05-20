@@ -34,6 +34,35 @@ h2 {
   margin-bottom: 50px;
 }
 
+h3 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.portfolio-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.we-doing-section {
+  padding-top: 47px;
+  padding-bottom: 94px;
+}
+
+.clients-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.qualities-section {
+  padding-top: 94px;
+  padding-bottom: 47px;
+}
+
 /* Выделение ссылки */
 
 .link:hover,
@@ -136,7 +165,7 @@ h2 {
   margin-left: 29px;
 }
 
-.qualities-container .qualities-list {
+.container .qualities-list {
   display: flex;
   align-items: center;
 }
@@ -162,6 +191,7 @@ h2 {
 
 .team-section {
   background: #f5f4fa;
+  padding-top: 94px;
 }
 
 .team-list {
@@ -184,7 +214,7 @@ h2 {
 .team-list .proffesion {
   color: #757575;
   font-size: 16px;
-  line-height: 1.18px;
+  line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -243,7 +273,6 @@ h2 {
   letter-spacing: 0.03em;
   display: flex;
   justify-content: center;
-  padding-top: 93px;
   padding-bottom: 34px;
 }
 
@@ -256,6 +285,7 @@ h2 {
 }
 
 .portfolio-list img {
+  display: block;
   margin-bottom: 20px;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
@@ -291,14 +321,13 @@ h2 {
   margin: 0 auto;
 }
 
-.qualities-container {
+.container {
   width: 1230px;
   padding-left: 15px;
   padding-right: 15px;
   margin-top: 0;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 94px;
 }
 
 .btn {
@@ -324,10 +353,6 @@ h2 {
   margin-bottom: 0;
 }
 
-.hero-container {
-  padding-bottom: 94px;
-}
-
 .quailies-title {
   display: none;
 }
@@ -342,6 +367,7 @@ h2 {
 
 .we-doing-list-title {
   width: 380px;
+  font-size: 14px;
   padding: 27px 87px;
   text-align: center;
   background: rgba(47, 48, 58, 0.8);
@@ -352,7 +378,9 @@ h2 {
 
 .we-doing-list {
   display: flex;
-  padding-bottom: 94px;
+}
+.we-doing-list img {
+  display: block;
 }
 
 .we-doing-list .item + .item {
@@ -369,11 +397,8 @@ h3.title {
   margin-bottom: 16px;
 }
 
-.team-list h3 {
-  margin-top: 30px;
-}
-.clients {
-  margin-bottom: 94px;
+.team-list img {
+  margin-bottom: 30px;
 }
 
 .footer-container {
@@ -430,7 +455,6 @@ h3.title {
 }
 
 .portfolio-list {
-  padding-bottom: 94px;
   display: flex;
   flex-wrap: wrap;
 }
@@ -449,19 +473,19 @@ h3.title {
   margin-bottom: 0;
 }
 
-.buttons .item {
+.button {
   padding: 6px 22px;
   background: #f5f4fa;
   border-radius: 4px;
   text-align: center;
 }
 
-.buttons li + li {
+.buttons .item + .item {
   margin-left: 8px;
 }
 
-.buttons .item:hover,
-.buttons .item:focus {
+.button:hover,
+.button:focus {
   background: #2196f3;
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 3px 1px rgba(0, 0, 0, 0.1);
