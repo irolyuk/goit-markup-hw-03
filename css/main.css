@@ -50,7 +50,7 @@ h3 {
 }
 
 .we-doing-section {
-  padding-top: 47px;
+  padding-top: 94px;
   padding-bottom: 94px;
 }
 
@@ -60,9 +60,12 @@ h3 {
 }
 .qualities-section {
   padding-top: 94px;
-  padding-bottom: 47px;
 }
 
+.qualities-section .container {
+  padding-bottom: 94px;
+  border-bottom: 1px solid #ececec;
+}
 /* Выделение ссылки */
 
 .link:hover,
