@@ -131,7 +131,8 @@ h3 {
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
-  background-color: #ccc;
+  background-image: url("http://i.piccy.info/i9/fa8f7a69ebcef5ae75a4999588d931e5/1590297473/5162/1379836/bg_overlay.png"),
+    url("http://i.piccy.info/i9/2d7bd0aafb996e5b0ecfcfddf9c251dc/1590296143/187241/1379836/hero_bg.jpg");
 }
 
 .solutions {
