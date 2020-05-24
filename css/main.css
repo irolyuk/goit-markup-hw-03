@@ -67,18 +67,18 @@ h3 {
   border-bottom: 1px solid #ececec;
 }
 /* Выделение ссылки */
-.link:link {
-  color: #212121;
-}
 
 .link:hover,
 .link:focus {
   color: #2196f3;
 }
 
-.link:active {
+.current {
   color: #2196f3;
   border-bottom: 4px solid #2196f3;
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 /* Логотип */
