@@ -208,6 +208,7 @@ h3 {
 .social-links {
   display: flex;
   justify-content: space-around;
+  margin-bottom: 24px;
 }
 
 .team-section {
@@ -220,12 +221,18 @@ h3 {
   padding-bottom: 94px;
 }
 
+.team-list .item {
+  border-radius: 5px;
+  box-shadow: 0px 5px 10px 3px #afb1b8;
+}
+
 .team-list .item + .item {
   margin-left: 30px;
 }
 
 .team-list .portrait {
   width: 270px;
+  margin-bottom: 30px;
 }
 
 .team-list .title {
@@ -298,7 +305,7 @@ h3 {
   letter-spacing: 0.03em;
   display: flex;
   justify-content: center;
-  padding-bottom: 34px;
+  margin-bottom: 34px;
 }
 
 .portfolio-list .title {
@@ -414,10 +421,6 @@ h3.title {
 .team-list p {
   margin-top: 0px;
   margin-bottom: 16px;
-}
-
-.team-list img {
-  margin-bottom: 30px;
 }
 
 .footer-container {
